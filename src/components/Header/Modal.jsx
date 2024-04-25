@@ -21,7 +21,7 @@ export default function BasicModal() {
     await localStorage.removeItem("token");
     await localStorage.removeItem("role");
     
-    window.location.replace("/");
+     window.location.replace("/");
   }
 
   return (

@@ -18,7 +18,7 @@ function UserSection() {
           </div>
           <div>
             <div className="hidden overflow-hidden justify-start h-3/4 mt-8 object-cover md:flex">
-              <img src="/photos/Subjects/study.png" alt="err" className="" />
+              <img src="/photos/dashboard/study.png" alt="err" className="" />
             </div>
           </div>
         </div>
