@@ -16,12 +16,12 @@ export default function BasicModal() {
   const {user} = useContext(UserContext)
 
 
-  const handleLogOut = () =>{
-    localStorage.removeItem("nuser");
-    localStorage.removeItem("token");
-    localStorage.removeItem("role");
+  const handleLogOut = async () =>{
+    await localStorage.removeItem("nuser");
+    await localStorage.removeItem("token");
+    await localStorage.removeItem("role");
     
-     window.location.replace("/");
+    window.location.replace("/");
   }
 
   return (
